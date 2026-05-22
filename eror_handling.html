@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <h2>JS error handling</h2>
+        <p>This is a simple example of how to use <b>Catch</b> in JavaScript.</p>
+        <p id="error_message"></p>
+        <script>
+            try {
+                addalert("Welcome guest!");
+            }
+            catch (err) {
+                document.getElementById("error_message").innerHTML = err.message;
+            }
+        </script>
+    </body>
+</html>
